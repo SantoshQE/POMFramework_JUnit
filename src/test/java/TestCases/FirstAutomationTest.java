@@ -8,7 +8,7 @@ public class FirstAutomationTest
 {
     //We should add @Test annotation that JUnit will run below method
     @Test
-    //Start to write our test method.
+    //Start to write our test method. saaadd
     public void swTestAcademyTitleTest()
     {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").toString() + "/src/main/resources/ChromeDriver/Chrome78/chromedriver.exe");
