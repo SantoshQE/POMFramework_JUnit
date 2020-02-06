@@ -1,2 +1,4 @@
+TestCases\checkJunitAnnotationSequence.class
 TestCases\FirstAutomationTest.class
 TestCases\VerifyWikiLogin.class
+TestCases\TC1_swtContactPageTest.class

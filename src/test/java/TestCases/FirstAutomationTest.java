@@ -19,8 +19,6 @@ public class FirstAutomationTest
         //Step 3- Assertion: Check its title is correct
         //assertEquals method Parameters: Expected Value, Actual Value, Assertion Message
         assertEquals("Software Test Academy", driver.getTitle(), "Title check failed!");
-        assertEquals("Software Test Academy", driver.getTitle(), "Title check failed!");
-        assertEquals("Software Test Academy", driver.getTitle(), "Title check failed!");
         //Step 4- Close Driver
         driver.close();
         //Step 5- Quit Driver

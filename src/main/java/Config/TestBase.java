@@ -8,14 +8,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-//import org.testng.annotations.AfterSuite;
-
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-//import java.util.logging.Logger;
 
-/*import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;*/
 
 public class TestBase
 {
@@ -28,12 +23,9 @@ public class TestBase
     public static WebDriver driver;
     public static Properties prop;
     public  static EventFiringWebDriver e_driver;
-   // public static WebEventListener eventListener;
     public static Logger log = Logger.getLogger("devpinoyLogger");
     public  static DesiredCapabilities DCap;
-   // public ExtentReports report = ExtentManager.getInstance();
-   // public ExtentManager logger;
-   // public static ExtentTest extentTestbase;
+
 
 /*    public TestBase(WebDriver driver)
     {

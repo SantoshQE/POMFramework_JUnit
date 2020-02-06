@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: TestCases.TC1_swtContactPageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.771 s - in TestCases.TC1_swtContactPageTest
