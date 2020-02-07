@@ -1,18 +1,14 @@
 package TestCases;
 
 import Config.TestBase;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import Config.TestResultLoggerExtension;
 import Pages.swtContactPage;
 import com.aventstack.extentreports.ExtentTest;
-import org.junit.jupiter.api.TestMethodOrder;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-/*@Listeners({CustomListeners.class})*/
+@ExtendWith(TestResultLoggerExtension.class)
 public class TC1_swtContactPageTest extends TestBase
 {
     public static swtContactPage swtContactPg ;
@@ -49,7 +45,7 @@ public class TC1_swtContactPageTest extends TestBase
     {
         swtContactPg.fillContactDetails("TestUser","TestUser@gmail.com","Testsubject","Testmessage");
     }
-    @AfterAll()
+    @AfterAll() //Teardown steps close the borser
     public static void tearDown_Chrome()
     {
         if(driver!=null)
